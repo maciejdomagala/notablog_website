@@ -108,6 +108,12 @@
   font-size: 75px;
 }
 
+.Header__Icon__2 {
+  line-height: 1.1;
+  /* On Android Firefox, emoji can't be displayed if font-size > 77px. */
+  font-size: 150px;
+}
+
 .Header__Title {
   margin-top: 2.5rem;
   margin-bottom: 0.25em;
